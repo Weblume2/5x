@@ -205,7 +205,7 @@
                 <div class="container mx-auto px-6 text-center">
                     <h3 class="text-sm font-bold text-gray-400 tracking-[0.2em] uppercase mb-10">Premium Partners</h3>
                     <div class="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-70">
-                        <span class="text-3xl md:text-4xl font-bold text-black/80">TREK</span>
+                        <a href="https://www.trekbikes.com/za/en_ZA/store/645978/" target="_blank" class="text-3xl md:text-4xl font-bold text-black/80 hover:text-red-600 transition-colors" title="Visit our Trek Store">TREK</a>
                         <span class="text-3xl md:text-4xl font-bold text-black/80">THULE</span>
                         <span class="text-3xl md:text-4xl font-bold text-black/80">WAHOO</span>
                         <span class="text-3xl md:text-4xl font-bold text-black/80">OAKLEY</span>
@@ -228,8 +228,8 @@
 
             <div class="bg-red-600 text-white py-16 text-center">
                 <h2 class="text-4xl font-bold uppercase mb-6">Visit Us Today</h2>
-                <p class="text-xl mb-8 opacity-90">Corner of Watson Avenue & Bally Crescent, Voorbay</p>
-                <button onclick="navigateTo('contact')" class="bg-white text-black px-10 py-4 font-bold uppercase tracking-widest hover:bg-black hover:text-white transition-colors">Get Directions</button>
+                <p class="text-xl mb-8 opacity-90">17 Bally Cres, Voor Bay, Mossel Bay</p>
+                <a href="https://maps.google.com/?q=17+Bally+Cres,+Voor+Bay,+Mossel+Bay,+6506" target="_blank" class="inline-block bg-white text-black px-10 py-4 font-bold uppercase tracking-widest hover:bg-black hover:text-white transition-colors shadow-lg">Get Directions</a>
             </div>
         </div>
 
@@ -345,7 +345,6 @@
                             <h2 class="text-3xl font-bold uppercase">Schools Development</h2>
                         </div>
                         <p class="text-gray-600 mb-6">We are passionate about the future of the sport. Days Cycling Company actively supports local school teams with technical assistance and coaching.</p>
-                        <img src="photo4.jpg" alt="Schools" class="w-full h-48 object-cover grayscale">
                     </div>
                 </div>
             </div>
@@ -388,61 +387,67 @@
                         <h3 class="text-4xl font-bold uppercase">Meet The Team</h3>
                     </div>
                     
-                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+                    <!-- Dusty (Centered Top) -->
+                    <div class="flex justify-center mb-6 md:mb-10">
+                        <div class="relative group overflow-hidden rounded shadow-lg aspect-[4/5] bg-neutral-100 w-full max-w-[280px] md:max-w-[320px]">
+                            <img src="Dusty.jpg" onerror="this.onerror=null; this.src='https://placehold.co/400x500/171717/FFFFFF?text=Dusty'" alt="Dusty" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent flex flex-col justify-end p-6 transition-opacity duration-300">
+                                <h4 class="text-3xl font-bold text-white uppercase tracking-wider">Dusty</h4>
+                                <div class="w-10 h-1 bg-red-600 mt-2"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- The Rest of the Team (3 Left, 3 Right) -->
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6">
                         
+                        <!-- Left 3 -->
                         <!-- Darren -->
                         <div class="relative group overflow-hidden rounded shadow-lg aspect-[4/5] bg-neutral-100">
                             <img src="Darren.jpg" onerror="this.onerror=null; this.src='https://placehold.co/400x500/171717/FFFFFF?text=Darren'" alt="Darren" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-6 transition-opacity duration-300">
-                                <h4 class="text-2xl font-bold text-white uppercase tracking-wider">Darren</h4>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-5 transition-opacity duration-300">
+                                <h4 class="text-xl md:text-2xl font-bold text-white uppercase tracking-wider">Darren</h4>
                             </div>
                         </div>
 
                         <!-- Shastry -->
                         <div class="relative group overflow-hidden rounded shadow-lg aspect-[4/5] bg-neutral-100">
                             <img src="Shastry.jpg" onerror="this.onerror=null; this.src='https://placehold.co/400x500/171717/FFFFFF?text=Shastry'" alt="Shastry" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-6 transition-opacity duration-300">
-                                <h4 class="text-2xl font-bold text-white uppercase tracking-wider">Shastry</h4>
-                            </div>
-                        </div>
-
-                        <!-- Dusty -->
-                        <div class="relative group overflow-hidden rounded shadow-lg aspect-[4/5] bg-neutral-100">
-                            <img src="Dusty.jpg" onerror="this.onerror=null; this.src='https://placehold.co/400x500/171717/FFFFFF?text=Dusty'" alt="Dusty" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-6 transition-opacity duration-300">
-                                <h4 class="text-2xl font-bold text-white uppercase tracking-wider">Dusty</h4>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-5 transition-opacity duration-300">
+                                <h4 class="text-xl md:text-2xl font-bold text-white uppercase tracking-wider">Shastry</h4>
                             </div>
                         </div>
 
                         <!-- Stiaan -->
                         <div class="relative group overflow-hidden rounded shadow-lg aspect-[4/5] bg-neutral-100">
                             <img src="Stiaan.jpg" onerror="this.onerror=null; this.src='https://placehold.co/400x500/171717/FFFFFF?text=Stiaan'" alt="Stiaan" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-6 transition-opacity duration-300">
-                                <h4 class="text-2xl font-bold text-white uppercase tracking-wider">Stiaan</h4>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-5 transition-opacity duration-300">
+                                <h4 class="text-xl md:text-2xl font-bold text-white uppercase tracking-wider">Stiaan</h4>
                             </div>
                         </div>
 
+                        <!-- Right 3 -->
                         <!-- Edgar -->
                         <div class="relative group overflow-hidden rounded shadow-lg aspect-[4/5] bg-neutral-100">
                             <img src="Edgar.jpg" onerror="this.onerror=null; this.src='https://placehold.co/400x500/171717/FFFFFF?text=Edgar'" alt="Edgar" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-6 transition-opacity duration-300">
-                                <h4 class="text-2xl font-bold text-white uppercase tracking-wider">Edgar</h4>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-5 transition-opacity duration-300">
+                                <h4 class="text-xl md:text-2xl font-bold text-white uppercase tracking-wider">Edgar</h4>
                             </div>
                         </div>
 
                         <!-- Ella -->
                         <div class="relative group overflow-hidden rounded shadow-lg aspect-[4/5] bg-neutral-100">
                             <img src="Ella.jpg" onerror="this.onerror=null; this.src='https://placehold.co/400x500/171717/FFFFFF?text=Ella'" alt="Ella" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-6 transition-opacity duration-300">
-                                <h4 class="text-2xl font-bold text-white uppercase tracking-wider">Ella</h4>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-5 transition-opacity duration-300">
+                                <h4 class="text-xl md:text-2xl font-bold text-white uppercase tracking-wider">Ella</h4>
                             </div>
                         </div>
 
                         <!-- Wynand -->
                         <div class="relative group overflow-hidden rounded shadow-lg aspect-[4/5] bg-neutral-100">
                             <img src="Wynand.jpg" onerror="this.onerror=null; this.src='https://placehold.co/400x500/171717/FFFFFF?text=Wynand'" alt="Wynand" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-6 transition-opacity duration-300">
-                                <h4 class="text-2xl font-bold text-white uppercase tracking-wider">Wynand</h4>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-5 transition-opacity duration-300">
+                                <h4 class="text-xl md:text-2xl font-bold text-white uppercase tracking-wider">Wynand</h4>
                             </div>
                         </div>
 
@@ -458,18 +463,20 @@
                     <div class="space-y-8">
                         <div>
                             <h3 class="text-xl font-bold uppercase mb-2 text-red-500">Visit Us</h3>
-                            <p class="text-gray-300">Corner of Watson Avenue & Bally Crescent, Voorbay, Mossel Bay</p>
+                            <a href="https://maps.google.com/?q=17+Bally+Cres,+Voor+Bay,+Mossel+Bay,+6506" target="_blank" class="text-gray-300 hover:text-red-500 transition-colors inline-block">
+                                17 Bally Cres, Voor Bay,<br/>Mossel Bay, 6506
+                            </a>
                         </div>
                         <div>
                             <h3 class="text-xl font-bold uppercase mb-2 text-red-500">Call or Email</h3>
-                            <p class="text-gray-300">063 182 8382</p>
-                            <p class="text-gray-300">admin@dayscycling.co.za</p>
+                            <a href="https://wa.me/27631828382" target="_blank" class="block text-gray-300 hover:text-red-500 transition-colors mb-1">+27 63 182 8382 (Call & WhatsApp)</a>
+                            <a href="mailto:admin@dayscycling.co.za" class="block text-gray-300 hover:text-red-500 transition-colors">admin@dayscycling.co.za</a>
                         </div>
                         <div>
                             <h3 class="text-xl font-bold uppercase mb-2 text-red-500">Opening Hours</h3>
-                            <p>Mon–Fri: 08:00 – 17:00</p>
-                            <p>Saturday: 09:00 – 13:00</p>
-                            <p>Sunday: Closed</p>
+                            <p class="text-gray-300">Mon–Fri: 8:00 – 17:00</p>
+                            <p class="text-gray-300">Saturday: 9:00 – 13:00</p>
+                            <p class="text-gray-500">Sunday: Closed</p>
                         </div>
                     </div>
                 </div>
@@ -487,13 +494,53 @@
     </main>
 
     <footer class="bg-neutral-900 text-white pt-16 pb-8 border-t border-neutral-800">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold mb-8 uppercase">DAYS CYCLING COMPANY</h2>
-            <div class="flex justify-center space-x-6 mb-8">
-                <a href="https://www.instagram.com/days_cyclingcompany" target="_blank" class="hover:text-red-500"><i data-lucide="instagram"></i></a>
-                <a href="https://www.facebook.com/share/1GLgWHkQmE/?mibextid=wwXIfr" target="_blank" class="hover:text-red-500"><i data-lucide="facebook"></i></a>
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12 text-center md:text-left">
+                
+                <!-- Column 1: Brand & Socials -->
+                <div class="flex flex-col items-center md:items-start">
+                    <h2 class="text-2xl font-bold mb-6 uppercase">DAYS CYCLING COMPANY</h2>
+                    <div class="flex space-x-5 mb-6">
+                        <a href="https://www.instagram.com/days_cyclingcompany?igsh=MnVmbjRid204a2Vz" target="_blank" class="text-gray-400 hover:text-red-500 transition-colors"><i data-lucide="instagram" class="w-6 h-6"></i></a>
+                        <a href="https://www.facebook.com/share/15vTmnYsdt7/?mibextid=wwXIfr" target="_blank" class="text-gray-400 hover:text-red-500 transition-colors"><i data-lucide="facebook" class="w-6 h-6"></i></a>
+                    </div>
+                    <a href="https://www.trekbikes.com/za/en_ZA/store/645978/" target="_blank" class="inline-flex items-center gap-2 hover:text-white text-gray-400 transition-colors border border-neutral-700 hover:border-red-500 px-4 py-2" title="Days Cycling Company - Trek Bikes (ZA)">
+                        <i data-lucide="map-pin" class="w-4 h-4 text-red-500"></i>
+                        <span class="font-bold uppercase tracking-widest text-xs">Trek Store</span>
+                    </a>
+                </div>
+
+                <!-- Column 2: Contact Info -->
+                <div class="flex flex-col items-center md:items-start">
+                    <h3 class="text-sm font-bold uppercase mb-6 text-gray-500 tracking-[0.2em]">Contact & Location</h3>
+                    <div class="space-y-5 text-gray-300">
+                        <a href="https://wa.me/27631828382" target="_blank" class="flex items-center gap-3 hover:text-red-500 transition-colors group">
+                            <i data-lucide="phone" class="w-5 h-5 text-red-500 group-hover:scale-110 transition-transform"></i>
+                            <span>+27 63 182 8382 (Call & WA)</span>
+                        </a>
+                        <a href="https://maps.google.com/?q=17+Bally+Cres,+Voor+Bay,+Mossel+Bay,+6506" target="_blank" class="flex items-start gap-3 hover:text-red-500 transition-colors text-left group">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-red-500 shrink-0 mt-1 group-hover:scale-110 transition-transform"></i>
+                            <span>17 Bally Cres, Voor Bay,<br/>Mossel Bay, 6506</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 3: Trading Hours -->
+                <div class="flex flex-col items-center md:items-start">
+                    <h3 class="text-sm font-bold uppercase mb-6 text-gray-500 tracking-[0.2em]">Trading Hours</h3>
+                    <ul class="space-y-3 text-gray-300 w-full max-w-[240px]">
+                        <li class="flex justify-between border-b border-neutral-800 pb-2"><span>Mon - Fri:</span> <span>8:00 - 17:00</span></li>
+                        <li class="flex justify-between border-b border-neutral-800 pb-2"><span>Saturday:</span> <span>9:00 - 13:00</span></li>
+                        <li class="flex justify-between text-gray-500 pt-1"><span>Sunday:</span> <span>Closed</span></li>
+                    </ul>
+                </div>
+
             </div>
-            <p class="text-gray-500 text-sm">© 2026 Days Cycling Company. Mossel Bay.</p>
+
+            <div class="border-t border-neutral-800 pt-8 text-center flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">© 2026 Days Cycling Company. Mossel Bay.</p>
+                <p class="text-gray-600 text-xs uppercase tracking-widest">Built for Cyclists</p>
+            </div>
         </div>
     </footer>
 
